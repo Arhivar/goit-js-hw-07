@@ -12,3 +12,53 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #2E2F42;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+li {
+  padding: 16px;
+    list-style-type: none;  
+    width: 360px;
+    border:1px solid #212121;
+    border-radius: 4px;
+    display: flex;
+  margin-bottom: 8px;
+  color:#2E2F42 ;
+    /* height: 40px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  width: 392px;
+  margin-bottom: 30px;
+  background-color: #F6F6FE;
+}
