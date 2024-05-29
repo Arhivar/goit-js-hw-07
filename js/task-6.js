@@ -9,6 +9,11 @@ const divForm = document.querySelector("#controls");
 const create = document.querySelector("button[data-create]");
 const destroy = document.querySelector("button[data-destroy]");
 const input = document.querySelector("input");
+destroy.style.backgroundColor = `#FF4E4E`;
+input.style.width = "150px";
+destroy.style.width = "120px";
+create.style.width = "120px";
+
 let size = 30;
 destroy.addEventListener("click", () => {
   mainBox.innerHTML = "";
